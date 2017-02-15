@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 body {
 	color: #000000;
 	background: #ffffff;
@@ -21,36 +29,30 @@ a:hover {
 }
 
 .period {
-	font-style: italic;
-	font-size: 10px;
+	font-size: 15px;
+	letter-spacing: -1px;
 	display: inline-block;
-  width: 150px;
-	height: 75px;
-  margin: 10px;
+  width: 20%;
+  margin: 1px;
 }
 
 .company {
 	font-variant : small-caps;
-	font-size: 15px;
+	font-size: 20px;
 	display: inline-block;
-  width: 150px;
-	height: 75px;
-  margin: 10px;
+	width: 55%;
+  margin: 1px;
 }
 
 .place {
 	font-style: italic;
-	font-size: 10px;
+	font-size: 15px;
 	display: inline-block;
-  width: 150px;
-	height: 75px;
-  margin: 10px;
+  width: 20%;
+  margin: 1px;
 }
 
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+.details {
+	font-size: 15px;
+	text-indent: 10%;
 }
