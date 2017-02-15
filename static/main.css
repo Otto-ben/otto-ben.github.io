@@ -22,17 +22,29 @@ a:hover {
 
 .period {
 	font-style: italic;
-	font-weight: 400;
+	font-size: 30px;
+	display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
 }
 
 .company {
 	font-variant : small-caps;
-	font-weight: 500;
+	font-size: 40px;
+	display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
 }
 
 .place {
 	font-style: italic;
-	font-weight: 400;
+	font-size: 30px;
+	display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
 }
 
 @font-face {
