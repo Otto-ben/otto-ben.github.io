@@ -20,6 +20,21 @@ a:hover {
 	max-width: 680px;
 }
 
+.period {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.company {
+	font-variant : small-caps;
+	font-weight: 500;
+}
+
+.place {
+	font-style: italic;
+	font-weight: 400;
+}
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
