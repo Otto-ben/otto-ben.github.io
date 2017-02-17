@@ -28,6 +28,10 @@ a:hover {
 	max-width: 680px;
 }
 
+/*
+ * STANDARD ENTRIES
+ */
+
 .period {
 	font-size: 15px;
 	letter-spacing: -1px;
@@ -57,3 +61,51 @@ a:hover {
 	text-indent: 10%;
   text-align: justify;
 }
+
+/*
+ * LANGUAGE ENTRIES
+ */
+
+.language {
+  font-variant : small-caps;
+  font-size: 20px;
+  height:15px;
+}
+
+ /*
+  * ART ENTRIES
+  */
+
+  .field {
+  	font-variant : small-caps;
+  	font-size: 20px;
+  	display: inline-block;
+  	width: 20%;
+    margin: 1px;
+  }
+
+  .beginning {
+  	font-size: 15px;
+    font-style: italic;
+  	letter-spacing: -1px;
+  	display: inline-block;
+    width: 20%;
+    margin: 1px;
+  }
+
+  .year {
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    letter-spacing: -1.5px;
+    margin-left: 10%;
+    width: 10%;
+  }
+
+  .event {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: -0.5px;
+    display: inline-block;
+    width: 75%;
+  }
