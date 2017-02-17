@@ -55,4 +55,5 @@ a:hover {
 .details {
 	font-size: 15px;
 	text-indent: 10%;
+  text-align: justify;
 }
